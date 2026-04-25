@@ -55,6 +55,31 @@
 
 ### Задание 2
 
+![Hosts](https://github.com/expgt/netzabbix1hw/blob/main/hosts.png)
+![Agent log](https://github.com/expgt/netzabbix1hw/blob/main/agent_log.png)
+![Data](https://github.com/expgt/netzabbix1hw/blob/main/data.png)
+
+
+`wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_7.0+debian13_all.deb`
+
+`dpkg -i zabbix-release_latest_7.0+debian13_all.deb`
+
+`apt update`
+
+`apt install zabbix-agent`
+
+`systemctl restart zabbix-agent`
+
+`systemctl enable zabbix-agent`
+
+`sudo nano /etc/zabbix/zabbix_agentd.conf`
+
+`sudo systemctl restart zabbix-agent.service`
+
+`sudo systemctl status zabbix-agent.service`
+
+`sudo tail -f /var/log/zabbix/zabbix_agentd.log`
+
 
 ---
 
