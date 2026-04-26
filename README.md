@@ -86,7 +86,7 @@
 ### Задание 3
 
 
+![Windows disk C](https://github.com/expgt/netzabbix1hw/blob/main/windows.png)
+
+
 ---
-
-### Задание 4
-
